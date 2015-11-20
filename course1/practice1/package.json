@@ -1,0 +1,21 @@
+{
+  "name": "project1",
+  "version": "0.0.0",
+  "description": "image to ascii",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "ascii"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "picture-tube": "^1.0.0"
+  },
+  "bin":{
+      "outimg": "./index.js" 
+  }
+}
